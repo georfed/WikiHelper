@@ -5,7 +5,8 @@
 1. Скачать репозиторий
 2. Скачать [модель](https://huggingface.co/IlyaGusev/saiga_mistral_7b_gguf) (чем более мощная, тем лучше), положить в папку models, назвать `model.gguf`
 3. Установить нужные пакеты и зависимости: ```pip install -r requirements.txt```
-4. Запустить: ```python src/main.py```
+4. Переместить файл `config.py` в папку `src`
+5. Запустить: ```python src/main.py```
 
 # Структура системы
 1. Парсинг Википедии выполняется через `langchain_community.document_loaders.WikipediaLoader`
